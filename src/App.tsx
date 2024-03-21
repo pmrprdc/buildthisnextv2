@@ -29,26 +29,19 @@ const items = [
 
 
 function App() {
-
   return (
     <>
-     <AppDiv>
-      <h1>Welcom To Build This NEXT</h1>
-      <h3>You can vote on your favorite project below</h3>
+      <AppDiv>
+        <h1>Welcome To Build This NEXT</h1>
+        <h3>You can vote on your favorite project below</h3>
 
-      <h2>Projects QUE</h2>
-      <ul>
-        <li>
-          GhostRacr
-        </li>
-        <li>
-          Beautiful Robot Written Letters
-        </li>
-        <li>
-          Candle Like Focus Trainer For Desktop
-        </li>
-      </ul>
-     </AppDiv>
+        <h2>Projects QUEUE</h2>
+        
+        {/* Rendering items as h3 */}
+        {items.map((item, index) => (
+          <h3 key={index}>{item}</h3>
+        ))}
+      </AppDiv>
     </>
   )
 }
