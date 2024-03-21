@@ -23,8 +23,31 @@ const AppDiv = styled.div`
 
 
 const items = [
-  "ghostRacr", "Beautiful Robot Written Letters", "Candle Like Focus Trainer","vintage-royal-tees"
-]
+  "ghostRacr", "Beautiful Robot Written Letters", "Candle Like Focus Trainer","vintage-royal-tees",
+  "iterate88", "rejuvenate88", "disrupt88", "lazyoldmanfitnessnewsletters", "inbox 0", "omnipresentsocial",
+  "buildthisnext.com",
+"nextsteppresents.com",
+"rejuvenate88.com"]
+
+// automate88.com
+// disrupt88.com
+// iterate88.com
+// transcendingsystems.com
+// vintageroyaltees.com
+// clickmirage.com
+// isellsoaponline.com 
+// kingsdayrecords.com 
+// logobreakthrough.com 
+// moosegorilla.com 
+// originalmotionpictures.com 
+// pamirperdeci.com 
+// rugcatz.com 
+// superherorolemodels.com 
+// teepee.studio
+// timeofyourlifedjservices.com 
+// meditate88.com
+// ghostracr.com"
+// ]
 
 
 
