@@ -12,6 +12,7 @@ const AppDiv = styled.div`
   border-radius: 0.25rem;
   cursor: pointer;
   transition: background-color 0.15s ease-in-out;
+
   &:hover {
     background-color: pink;
   }
