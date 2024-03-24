@@ -2,7 +2,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Projects from './components/Project'; // Make sure the path is correct based on your project structure
-
+import Header from './components/Header';
+import Footer from './components/Footer'
 const AppDiv = styled.div`
   background-color: #007bff;
   color: white;
@@ -12,9 +13,9 @@ const AppDiv = styled.div`
   border-radius: 0.25rem;
   cursor: pointer;
   transition: background-color 0.15s ease-in-out;
-
+  text-align: center;
   &:hover {
-    background-color: pink;
+    background-color: darkblue;
   }
 `;
 
@@ -33,14 +34,16 @@ function App() {
 
   return (
     <>
+      <Header />
       <AppDiv>
-        <h1>Welcome To Build This NEXT</h1>
+       
         <h3>You can vote on your favorite project below</h3>
         <h2>Projects QUEUE</h2>
         
         {/* Use ProjectsList component to render items */}
         <Projects projects={items} />
       </AppDiv>
+      <Footer />
     </>
   );
 }

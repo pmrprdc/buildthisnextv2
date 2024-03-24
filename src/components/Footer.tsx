@@ -2,14 +2,15 @@ import React from 'react';
 
 function Footer() {
   const footerStyle = {
-    backgroundColor: '#007bff',
+    backgroundColor: 'black',
     color: 'white',
     padding: '10px',
     textAlign: 'center',
     fontSize: '1rem',
     position: 'fixed',
     bottom: '0',
-    width: '100%'
+    width: '100%',
+    paddingBottom: '100px'
   };
 
   return (
